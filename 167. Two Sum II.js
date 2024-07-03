@@ -1,5 +1,5 @@
 /**
- * @param {number[]} number
+ * @param {number[]} numbers
  * @param {number} target
  * @return {number[]}
  */
@@ -51,7 +51,9 @@ var twoSum = function(numbers, target){
 
 } 
 
-console.log(twoSum([0,-1],-1))
-console.log(twoSum([2,3,4],6))
-console.log(twoSum([0,0,1,7,7,8,9,34],0))
-console.log(twoSum([2,7,11,15],9))
+module.export = { twoSum }
+
+// console.log(twoSum([0,-1],-1))
+// console.log(twoSum([2,3,4],6))
+// console.log(twoSum([0,0,1,7,7,8,9,34],0))
+// console.log(twoSum([2,7,11,15],9))
