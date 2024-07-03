@@ -19,7 +19,7 @@ var twoSum = function(numbers, target){
         var min = i+1
         var mid
 
-        while(min < max){
+        while(min <= max){
 
             // determinar el medio
             if( (max - min) % 2 == 0 ){
@@ -35,12 +35,12 @@ var twoSum = function(numbers, target){
             }
             else if(numbers[mid] + numbers[i] < target){
                 console.log([i, mid],'menor')
-                min = mid 
+                min = mid + 1
             }
 
             else if(numbers[mid] + numbers[i] > target){
                 console.log([i, mid],'mayor')
-                max = mid
+                max = mid - 1
             }
             else{
                 break
@@ -51,4 +51,7 @@ var twoSum = function(numbers, target){
 
 } 
 
+console.log(twoSum([0,-1],-1))
+console.log(twoSum([2,3,4],6))
 console.log(twoSum([0,0,1,7,7,8,9,34],0))
+console.log(twoSum([2,7,11,15],9))
