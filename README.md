@@ -4,7 +4,9 @@
 - 001. Two Sum ✅ (easy)
 
 - 009. Palindrome Number ✅ (easy)
+
 - 013. Roman to Integer ✅ (easy)
+- 014. Longest Common Prefix ✅ (easy)
 
 - 150. Evaluate Reverse Polish Notation ❌
 
